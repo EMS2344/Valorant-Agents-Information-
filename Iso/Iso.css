@@ -1,0 +1,440 @@
+body {
+  background-image: url("/Photo/Iso1.webp");
+  background-size: 950px;
+  background: radial-gradient(
+    circle,
+    rgba(85, 39, 149, 1) 31%,
+    rgba(228, 224, 221, 1) 44%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-weight: bold;
+  position: fixed;
+}
+:root {
+  --main-box-width: 180px;
+  --mian-box-height: 180px;
+  --main-top: -1500px;
+  --background: rgba(0, 0, 0, 0.781);
+  --color: black;
+}
+.topnav {
+  display: flex;
+  justify-content: space-around;
+  top: 40px;
+  position: relative;
+  left: 880px;
+  z-index: 1;
+}
+.topnav a {
+  text-decoration: none;
+  color: var(--color);
+  font-family: "Kelly Slab", sans-serif;
+  font-size: 40px;
+}
+.topnav a:hover {
+  color: rgb(28, 33, 104);
+}
+.Harborimg {
+  width: 1300px;
+  height: 1200px;
+  position: relative;
+  left: 600px;
+  top: -100px;
+}
+.HP {
+  width: var(--main-box-width);
+  height: var(--mian-box-height);
+  position: relative;
+  left: 100px;
+  top: -1050px;
+  background-color: var(--background);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.HP1 {
+  width: var(--main-box-width);
+  height: var(--mian-box-height);
+  position: relative;
+  left: 100px;
+  top: -1050px;
+  background-color: var(--background);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.HP2 {
+  width: var(--main-box-width);
+  height: var(--mian-box-height);
+  position: relative;
+  left: 100px;
+  top: -1050px;
+  background-color: var(--background);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.HP3 {
+  width: var(--main-box-width);
+  height: var(--mian-box-height);
+  position: relative;
+  left: 100px;
+  top: -1050px;
+  background-color: var(--background);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.HP:hover {
+  transform: scale(2.5);
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+}
+.HP1:hover {
+  transform: scale(2.5);
+  z-index: 2;
+  height: 100px;
+  width: 100px;
+}
+.HP2:hover {
+  transform: scale(2.5);
+  z-index: 3;
+  height: 100px;
+  width: 100px;
+}
+.HP3:hover:hover {
+  transform: scale(2.5);
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+}
+.intro {
+  font-size: 15px;
+  font-family: "Kelly Slab", sans-serif;
+  width: 700px;
+  color: var(--color);
+  position: relative;
+  top: -1050px;
+  left: 150px;
+}
+.Ability {
+  color: var(--color);
+  font-size: 50px;
+  font-family: "Kelly Slab", sans-serif;
+  position: relative;
+  left: 350px;
+  top: 150px;
+  width: 100px;
+}
+.Icon {
+  position: relative;
+  top: var(--main-top);
+  width: 180px;
+  left: 1700px;
+  background: rgba(184, 86, 21, 0.932);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.5s;
+}
+.Icon1 {
+  position: relative;
+  top: var(--main-top);
+  width: 180px;
+  left: 1700px;
+  background: rgba(131, 8, 90, 0.863);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.5s;
+}
+.Icon2 {
+  position: relative;
+  top: var(--main-top);
+  width: 180px;
+  left: 1700px;
+  background: rgba(209, 155, 5, 0.829);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.5s;
+}
+.Icon3 {
+  position: relative;
+  top: -1315px;
+  width: 180px;
+  left: 1140px;
+  background: rgba(197, 132, 10, 0.801);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.5s;
+}
+.Icon5 {
+  position: relative;
+  top: -1315px;
+  width: 180px;
+  left: 1140px;
+  background: rgba(9, 38, 202, 0.788);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.5s;
+}
+.Icon6 {
+  position: relative;
+  top: -1315px;
+  width: 180px;
+  left: 1140px;
+  background: rgba(89, 64, 177, 0.808);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.5s;
+}
+.Icon4 {
+  position: relative;
+  top: -1850px;
+  left: -1050px;
+  width: 180px;
+  background: rgba(27, 32, 95, 0.918);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.5s;
+}
+.Icon:hover {
+  transform: scale(1.5);
+  z-index: 1;
+  background: rgb(88, 51, 51);
+}
+.Icon1:hover {
+  transform: scale(1.5);
+  z-index: 2;
+  background: rgb(88, 51, 51);
+}
+.Icon2:hover {
+  transform: scale(1.5);
+  z-index: 3;
+  background: rgb(88, 51, 51);
+}
+.Icon3:hover {
+  transform: scale(1.5);
+  z-index: 1;
+  background: rgb(88, 51, 51);
+}
+.Icon5:hover {
+  transform: scale(1.5);
+  z-index: 3;
+  background: rgb(88, 51, 51);
+}
+.Icon6:hover {
+  transform: scale(1.5);
+  z-index: 1;
+  background: rgb(88, 51, 51);
+}
+.controller {
+  color: var(--color);
+  font-size: 50px;
+  font-family: "Kelly Slab", sans-serif;
+  position: relative;
+  left: 1900px;
+  top: -1500px;
+  width: 100px;
+}
+.Harbor1 {
+  color: var(--color);
+  font-size: 50px;
+  font-family: "Kelly Slab", sans-serif;
+  position: relative;
+  left: 280px;
+  top: -2030px;
+  width: 100px;
+  font-size: 60px;
+}
+.Gun {
+  position: relative;
+  top: -1400px;
+  left: 1740px;
+  background: rgba(0, 0, 0, 0.781);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(105, 10, 10, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.dropbtn {
+  padding: 16px;
+  font-size: 40px;
+  border: none;
+  position: relative;
+  top: -15px;
+  left: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: rgb(24, 24, 77);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: aquamarine;
+}
+* {
+  box-sizing: border-box;
+}
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  top: -1700px;
+  left: -180px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}

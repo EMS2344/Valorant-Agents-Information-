@@ -1,0 +1,528 @@
+body {
+  background-color: rgb(231, 226, 226);
+  position: fixed;
+}
+:root {
+  --main-font: "Fugaz One", sans-serif;
+  --main-color: rgb(0, 0, 0);
+  --main-weight: bold;
+}
+.Harbor {
+  border: 5px solid red;
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  background: rgba(67, 163, 104, 0.733);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Harbor a {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: var(--main-weight);
+  position: relative;
+  top: 260px;
+  left: 130px;
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Harbor a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Harborimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: -40px;
+  top: -50px;
+}
+.Harborimg:hover {
+  opacity: 0.5;
+}
+.Brim {
+  border: 5px solid red;
+  position: relative;
+  left: 430px;
+  width: 300px;
+  height: 300px;
+  top: -251px;
+  display: flex;
+  justify-content: center;
+  background: rgba(160, 111, 5, 0.541);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Brim a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  font-weight: var(--main-weight);
+
+  top: 260px;
+  left: 130px;
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Brim a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Brimimg {
+  height: 430px;
+  width: 450px;
+  position: relative;
+  left: -20px;
+  top: -30px;
+}
+.Brimimg:hover {
+  opacity: 0.5;
+}
+.Viper {
+  border: 5px solid red;
+  position: relative;
+  left: 760px;
+  width: 300px;
+  height: 300px;
+  top: -552px;
+  display: flex;
+  justify-content: center;
+  background: rgba(12, 196, 21, 0.63);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Viper a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Viper a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Viperimg {
+  height: 450px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -50px;
+}
+.Viperimg:hover {
+  opacity: 0.5;
+}
+.Omen {
+  border: 5px solid red;
+  position: relative;
+  left: 1100px;
+  width: 300px;
+  height: 300px;
+  top: -855px;
+  display: flex;
+  justify-content: center;
+  background: rgba(13, 38, 148, 0.781);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Omen a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 2;
+}
+.Omen a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Omenimg {
+  height: 445px;
+  width: 445px;
+  position: relative;
+  left: 15px;
+  top: -50px;
+  z-index: 1;
+}
+
+.Omenimg:hover {
+  opacity: 0.5;
+}
+.Omenimg1 {
+  position: relative;
+  left: -300px;
+  width: 900px;
+  height: 300px;
+}
+.Astra {
+  border: 5px solid red;
+  position: relative;
+  left: 1440px;
+  width: 300px;
+  height: 300px;
+  top: -1157px;
+  display: flex;
+  justify-content: center;
+  background: rgba(83, 8, 65, 0.788);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Astra a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  font-weight: var(--main-weight);
+
+  left: 130px;
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Astra a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Astraimg {
+  height: 430px;
+  width: 490px;
+  position: relative;
+  left: 35px;
+  top: -25px;
+}
+.Astraimg:hover {
+  opacity: 0.5;
+}
+.Phoenix {
+  border: 5px solid red;
+  position: relative;
+  left: 1780px;
+  width: 300px;
+  height: 300px;
+  top: -1460px;
+  display: flex;
+  justify-content: center;
+  background: rgba(211, 104, 5, 0.712);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Phoenix a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Phoenix a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Phoeniximg {
+  height: 430px;
+  width: 490px;
+  position: relative;
+  left: 15px;
+  top: -30px;
+}
+.Phoeniximg:hover {
+  opacity: 0.5;
+}
+.Jett {
+  border: 5px solid red;
+  position: relative;
+  left: 2120px;
+  width: 300px;
+  height: 300px;
+  top: -1761px;
+  display: flex;
+  justify-content: center;
+  background: rgba(11, 169, 180, 0.788);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Jett a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  font-weight: var(--main-weight);
+
+  left: 130px;
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Jett a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Jettimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -50px;
+}
+.Jettimg:hover {
+  opacity: 0.5;
+}
+.Neon {
+  border: 5px solid red;
+  position: relative;
+  left: 1100px;
+  width: 300px;
+  height: 300px;
+  top: -1630px;
+  display: flex;
+  justify-content: center;
+  background: rgba(231, 191, 10, 0.808);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Neon a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Neon a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Neonimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -40px;
+}
+.Neonimg:hover {
+  opacity: 0.5;
+}
+.Raze {
+  border: 5px solid red;
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  top: -1930px;
+  display: flex;
+  justify-content: center;
+  background: rgba(10, 59, 43, 0.87);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Raze a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Raze a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Razeimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -40px;
+}
+.Razeimg:hover {
+  opacity: 0.5;
+}
+.Reyna {
+  border: 5px solid red;
+  position: relative;
+  left: 760px;
+  width: 300px;
+  height: 300px;
+  top: -2231px;
+  display: flex;
+  justify-content: center;
+  background: rgba(137, 13, 168, 0.897);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Reyna a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Reyna a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Reynaimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: 30px;
+  top: -40px;
+}
+.Reynaimg:hover {
+  opacity: 0.5;
+}
+.Yoru {
+  border: 5px solid red;
+  position: relative;
+  left: 1440px;
+  width: 300px;
+  height: 300px;
+  top: -2840px;
+  display: flex;
+  justify-content: center;
+  background: rgba(20, 18, 173, 0.849);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Yoru a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Yoru a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Yoruimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: 30px;
+  top: -40px;
+}
+.Yoruimg:hover {
+  opacity: 0.5;
+}
+.Breach {
+  border: 5px solid red;
+  position: relative;
+  left: 2050px;
+  width: 300px;
+  height: 300px;
+  top: 3230px;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Breach a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Breach a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Breachimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -40px;
+}
+.Breachimg:hover {
+  opacity: 0.5;
+}
