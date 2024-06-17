@@ -6,80 +6,69 @@
     <title>Jett</title>
     <link rel="stylesheet" href="Jett.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <div class="topnav">
-      <div class="dropdown">
-        <button class="dropbtn"><a href="/index.html">Home</a></button>
-        <div class="dropdown-content">
-          <a href="/Duelist/Duelist.html">Duelist</a>
-          <a href="#">Controller</a>
-          <a href="#">Initiators</a>
-          <a href="#">Sentinels</a>
-        </div>
-      </div>
       <a href="/Phoenix/Phoenix.html">Phoenix</a>
       <a href="/Neon/Neon.html">Neon</a>
       <a href="/Raze/Raze.html">Raze</a>
-      <a href="/Reyna/Reyna.html">Reyna</a>
       <a href="/Yoru/Yoru.html">Yoru</a>
+      <a href="/Reyna/Reyna.html">Reyna</a>
       <a href="/Iso/Iso.html">Iso</a>
     </div>
-    <h1 class="Ability">Abilities</h1>
-    <div class="Harbor">
-      <img src="/Photo/jett.webp" class="Harborimg" />
+    <div class="dropdown">
+      <button class="dropbtn"><a href="/index.html">Home</a></button>
+      <div class="dropdown-content">
+        <a href="/Duelist/Duelist.html">Duelist</a>
+        <a href="/Controller/Controller.html">Controller</a>
+        <a href="/Initiator/Initiator.html">Initiators</a>
+        <a href="/Sentinel/Sentinel.html">Sentinels</a>
+      </div>
     </div>
-    <img src="/Photo/HarborP1.webp" class="HP" />
-    <img src="/Photo/HarborP2.webp" class="HP1" />
-    <img src="/Photo/HarborP3.webp" class="HP2" />
-    <img src="/Photo/HarborP4.webp" class="HP3" />
-    <div class="intro">
-      <h1>
-        Representing her home country of South Korea, Jett's agile and evasive
-        fighting style lets her take risks no one else can. She runs circles
-        around every skirmish, cutting enemies before they even know what hit
-        them.
-      </h1>
-    </div>
-    <h1 class="controller">Duelist</h1>
-    <img src="/Photo/PhoenixIcon.webp" class="Icon" />
-    <img src="/Photo/YoruIcon.webp" class="Icon1" />
-    <img src="/Photo/ReynaIcon.webp" class="Icon2" />
-    <img src="/Photo/RazeIcon.webp" class="Icon3" />
-    <img src="/Photo/NeonIcon.webp" class="Icon5" />
-    <img src="/Photo/IsoIcon.webp" class="Icon6" />
+    <img src="/Photo/JettIcon.webp" class="icon" alt="Norway" />
+    <img src="/Photo/jett.webp" class="icon1" alt="Norway" />
 
-    <img src="/Photo/JettIcon.webp" class="Icon4" />
-    <h1 class="Harbor1">Jett</h1>
-    <img src="/Photo/Jettgun.webp" class="Gun" />
-
+    <h1 class="Astra">Jett</h1>
+    <h1 class="Abi">SPECIAL ABILITIES</h1>
+    <p class="Desc">
+      Filipino Agent Neon surges forward at shocking speeds, discharging bursts
+      of bioelectric radiance as fast as her body generates it. She races ahead
+      to catch enemies off guard, then strikes them down quicker than lightning.
+    </p>
     <div class="slideshow-container">
       <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
-        <img src="/Photo/JettB.webp" style="width: 100%" />
-        <div class="text">Alpha Threat</div>
+        <video width="1000px" height="400px" autoplay loop muted>
+          <source src="/Videos/Jettup.mp4" type="video/mp4" />
+        </video>
+        <img src="/Photo/jettups.webp" class="Powerup" />
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-        <img src="/Photo/JettB1.webp" style="width: 100%" />
-        <div class="text">Hangout</div>
+        <video width="1000px" height="400px" autoplay loop muted>
+          <source src="/Videos/Jettdash.mp4" type="video/mp4" />
+        </video>
+        <img src="/Photo/jettda.webp" class="Powerup" />
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="/Photo/JettB2.webp" style="width: 100%" />
-        <div class="text">Restuarant</div>
+        <video width="1000px" height="400px" autoplay loop muted>
+          <source src="/Videos/Jettsmoke.mp4" type="video/mp4" />
+        </video>
+        <img src="/Photo/jettsm.webp" class="Powerup" />
       </div>
       <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="/Photo/JettB3.webp" style="width: 100%" />
-        <div class="text">New Year</div>
+        <video width="1000px" height="400px" autoplay loop muted>
+          <source src="/Videos/Jettult.mp4" type="video/mp4" />
+        </video>
+        <img src="/Photo/jettult.webp" class="Powerup" />
       </div>
-
       <a class="prev" onclick="plusSlides(-1)">❮</a>
       <a class="next" onclick="plusSlides(1)">❯</a>
     </div>
@@ -89,7 +78,16 @@
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
     </div>
+    <h1 class="controller">Duelist</h1>
+    <img src="/Photo/PhoenixIcon.webp" class="Icon" />
+    <img src="/Photo/YoruIcon.webp" class="Icon1" />
+    <img src="/Photo/ReynaIcon.webp" class="Icon2" />
+    <img src="/Photo/RazeIcon.webp" class="Icon3" />
+    <img src="/Photo/NeonIcon.webp" class="Icon5" />
+    <img src="/Photo/IsoIcon.webp" class="Icon6" />
+
     <script src="Jett.js"></script>
   </body>
 </html>

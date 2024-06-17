@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(231, 226, 226);
+  background-color: rgba(91, 39, 175, 0.514);
   position: fixed;
 }
 :root {
   --main-font: "Fugaz One", sans-serif;
-  --main-color: rgb(0, 0, 0);
+  --main-color: rgb(2, 0, 0);
   --main-weight: bold;
 }
 .Harbor {
@@ -16,7 +16,7 @@ body {
   top: 50px;
   display: flex;
   justify-content: center;
-  background: rgba(67, 163, 104, 0.733);
+  background: rgba(67, 163, 104, 0.37);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -101,7 +101,7 @@ body {
   top: -552px;
   display: flex;
   justify-content: center;
-  background: rgba(12, 196, 21, 0.63);
+  background: rgba(12, 196, 21, 0.288);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -144,7 +144,7 @@ body {
   top: -855px;
   display: flex;
   justify-content: center;
-  background: rgba(13, 38, 148, 0.781);
+  background: rgba(13, 38, 148, 0.24);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -195,7 +195,7 @@ body {
   top: -1157px;
   display: flex;
   justify-content: center;
-  background: rgba(83, 8, 65, 0.788);
+  background: rgba(83, 8, 65, 0.281);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -238,7 +238,7 @@ body {
   top: -1460px;
   display: flex;
   justify-content: center;
-  background: rgba(211, 104, 5, 0.712);
+  background: rgba(211, 105, 5, 0.384);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -281,7 +281,7 @@ body {
   top: -1761px;
   display: flex;
   justify-content: center;
-  background: rgba(11, 169, 180, 0.788);
+  background: rgba(11, 169, 180, 0.342);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -321,10 +321,10 @@ body {
   left: 1100px;
   width: 300px;
   height: 300px;
-  top: -1630px;
+  top: -1660px;
   display: flex;
   justify-content: center;
-  background: rgba(231, 191, 10, 0.808);
+  background: rgba(231, 190, 10, 0.527);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -367,7 +367,7 @@ body {
   top: -1930px;
   display: flex;
   justify-content: center;
-  background: rgba(10, 59, 43, 0.87);
+  background: rgba(10, 59, 43, 0.39);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -406,10 +406,10 @@ body {
   left: 760px;
   width: 300px;
   height: 300px;
-  top: -2231px;
+  top: -2267px;
   display: flex;
   justify-content: center;
-  background: rgba(137, 13, 168, 0.897);
+  background: rgba(137, 13, 168, 0.233);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -448,10 +448,10 @@ body {
   left: 1440px;
   width: 300px;
   height: 300px;
-  top: -2840px;
+  top: -2569px;
   display: flex;
   justify-content: center;
-  background: rgba(20, 18, 173, 0.849);
+  background: rgba(21, 18, 173, 0.253);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -484,23 +484,23 @@ body {
 .Yoruimg:hover {
   opacity: 0.5;
 }
-.Breach {
+.Iso {
   border: 5px solid red;
   position: relative;
-  left: 2050px;
+  left: 2120px;
   width: 300px;
   height: 300px;
-  top: 3230px;
+  top: -2875px;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(100, 10, 184, 0.185);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.Breach a {
+.Iso a {
   color: var(--main-color);
   text-decoration: none;
   position: relative;
@@ -512,17 +512,101 @@ body {
   font-family: var(--main-font);
   z-index: 1;
 }
-.Breach a:hover {
+.Iso a:hover {
   color: black;
   opacity: 0.5;
 }
-.Breachimg {
+.Isoimg {
   height: 445px;
   width: 490px;
   position: relative;
   left: -20px;
   top: -40px;
 }
-.Breachimg:hover {
+.Isoimg:hover {
+  opacity: 0.5;
+}
+.Sage {
+  border: 5px solid red;
+  position: relative;
+  left: 2120px;
+  width: 300px;
+  height: 300px;
+  top: -2770px;
+  display: flex;
+  justify-content: center;
+  background: rgba(15, 141, 199, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Sage a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Sage a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Sageimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -40px;
+}
+.Sageimg:hover {
+  opacity: 0.5;
+}
+.KJ {
+  border: 5px solid red;
+  position: relative;
+  left: 1780px;
+  width: 300px;
+  height: 300px;
+  top: -3475px;
+  display: flex;
+  justify-content: center;
+  background: rgba(243, 247, 5, 0.384);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.KJ a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.KJ a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.KJimg {
+  height: 430px;
+  width: 490px;
+  position: relative;
+  left: 15px;
+  top: -30px;
+}
+.KJimg:hover {
   opacity: 0.5;
 }
