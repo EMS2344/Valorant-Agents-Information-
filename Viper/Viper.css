@@ -251,8 +251,8 @@ img {
   position: relative;
   top: var(--main-top);
   width: 180px;
-  left: 1750px;
-  background: rgba(83, 20, 80, 0.801);
+  left: 1960px;
+  background: rgba(189, 86, 18, 0.801);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -264,7 +264,7 @@ img {
   position: relative;
   top: var(--main-top);
   width: 180px;
-  left: 1750px;
+  left: 1990px;
   background: rgba(29, 19, 168, 0.774);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -275,9 +275,9 @@ img {
 }
 .Icon2 {
   position: relative;
-  top: var(--main-top);
+  top: -100px;
   width: 180px;
-  left: 1750px;
+  left: 1590px;
   background: rgba(17, 199, 23, 0.808);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -288,9 +288,9 @@ img {
 }
 .Icon3 {
   position: relative;
-  top: var(--main-top);
+  top: -100px;
   width: 180px;
-  left: 1750px;
+  left: 1620px;
   background: rgba(40, 39, 63, 0.74);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
