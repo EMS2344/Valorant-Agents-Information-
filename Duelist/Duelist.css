@@ -1,29 +1,53 @@
+body {
+  background-color: rgb(249, 250, 255);
+  position: fixed;
+}
+:root {
+  --main-font: "Exo 2", sans-serif;
+  --main-color: rgb(0, 0, 0);
+  --main-weight: none;
+}
 .topnav {
   display: flex;
-  justify-content: space-around;
-  top: 40px;
+  justify-content: space-evenly;
   position: relative;
-  left: 880px;
-  z-index: 1;
+  top: 90px;
+  left: 600px;
+  width: 1700px;
+  height: 50px;
+  background-color: rgb(7, 5, 5);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .topnav a {
   text-decoration: none;
-  color: var(--color);
-  font-family: "Kelly Slab", sans-serif;
-  font-size: 40px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Exo 2", sans-serif;
+  position: relative;
+  top: 10px;
+  left: 50px;
 }
 .topnav a:hover {
-  color: rgb(175, 116, 5);
+  color: rgb(175, 98, 25);
 }
 .dropbtn {
-  padding: 16px;
-  font-size: 40px;
-  border: none;
+  width: 100px;
+  height: 50px;
   position: relative;
-  top: -15px;
-  left: 15px;
+  left: 600px;
+  top: 40px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgb(170, 99, 41);
 }
-
+.dropbtn a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(255, 251, 251);
+  font-family: "Exo 2", sans-serif;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -31,31 +55,342 @@
 
 .dropdown-content {
   display: none;
-  position: absolute;
-
+  background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  position: relative;
+  left: 608px;
+  top: 148px;
+  border-radius: 5px 0px 0px 5px;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 16px;
   text-decoration: none;
   display: block;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
 }
 
 .dropdown-content a:hover {
-  color: rgb(24, 24, 77);
+  background-color: #b38d8d;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  position: fixed;
 }
 
 .dropdown:hover .dropbtn {
-  color: aquamarine;
+  background-color: #ad8095;
 }
 .Duelist {
-  color: red;
+  color: black;
+}
+.Harbor {
+  border: 5px solid red;
+  position: relative;
+  left: 1630px;
+  width: 400px;
+  height: 400px;
+  top: -1000px;
+  display: flex;
+  justify-content: center;
+  background: rgba(7, 47, 107, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Harbor a {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: var(--main-weight);
+  position: relative;
+  top: 260px;
+  left: 130px;
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Harbor a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Harborimg {
+  height: 445px;
+  width: 490px;
+  position: relative;
+  left: -40px;
+  top: -50px;
+}
+.Harborimg:hover {
+  opacity: 0.5;
+}
+.Brim {
+  border: 5px solid red;
+  position: relative;
+  left: 2120px;
+  width: 400px;
+  height: 400px;
+  top: -1409px;
+  display: flex;
+  justify-content: center;
+  background: rgba(82, 47, 2, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Brim a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  font-weight: var(--main-weight);
+  top: 260px;
+  left: 130px;
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Brim a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Brimimg {
+  height: 430px;
+  width: 450px;
+  position: relative;
+  left: -20px;
+  top: -30px;
+}
+.Brimimg:hover {
+  opacity: 0.5;
+}
+.Viper {
+  border: 5px solid red;
+  position: relative;
+  left: 40px;
+  width: 400px;
+  height: 400px;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  background: rgba(26, 66, 3, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Viper a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Viper a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Viperimg {
+  height: 450px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -50px;
+}
+.Viperimg:hover {
+  opacity: 0.5;
+}
+.Omen {
+  border: 5px solid red;
+  position: relative;
+  left: 560px;
+  width: 400px;
+  height: 400px;
+  top: -200px;
+  display: flex;
+  justify-content: center;
+  background: rgba(13, 16, 180, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Omen a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 2;
+}
+.Omen a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Omenimg {
+  height: 445px;
+  width: 445px;
+  position: relative;
+  left: 15px;
+  top: -50px;
+  z-index: 1;
+}
+
+.Omenimg:hover {
+  opacity: 0.5;
+}
+.Omenimg1 {
+  position: relative;
+  left: -300px;
+  width: 900px;
+  height: 300px;
+}
+.Astra {
+  border: 5px solid red;
+  position: relative;
+  left: 1100px;
+  width: 400px;
+  height: 400px;
+  top: -600px;
+  display: flex;
+  justify-content: center;
+  background: rgba(43, 3, 51, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Astra a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  font-weight: var(--main-weight);
+
+  left: 130px;
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Astra a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Astraimg {
+  height: 430px;
+  width: 490px;
+  position: relative;
+  left: 45px;
+  top: -25px;
+}
+.Astraimg:hover {
+  opacity: 0.5;
+}
+.Iso {
+  border: 5px solid red;
+  position: relative;
+  left: 790px;
+  width: 400px;
+  height: 400px;
+  top: -1300px;
+  display: flex;
+  justify-content: center;
+  background: rgba(43, 3, 51, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Iso a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 90px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Iso a:hover {
+  color: black;
+  opacity: 0.5;
+}
+
+.Viperimg {
+  height: 450px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -50px;
+}
+.Viperimg:hover {
+  opacity: 0.5;
+}
+.Yoru {
+  border: 5px solid red;
+  position: relative;
+  left: 1390px;
+  width: 400px;
+  height: 400px;
+  top: -1705px;
+  display: flex;
+  justify-content: center;
+  background: rgba(43, 3, 51, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Yoru a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 90px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.yoru a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.Viperimg {
+  height: 450px;
+  width: 490px;
+  position: relative;
+  left: -20px;
+  top: -50px;
+}
+.Viperimg:hover {
+  opacity: 0.5;
 }

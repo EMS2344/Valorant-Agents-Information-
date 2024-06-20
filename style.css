@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(91, 39, 175, 0.514);
+  background-color: rgba(248, 246, 252, 0.514);
   position: fixed;
 }
 :root {
@@ -361,10 +361,10 @@ body {
 .Raze {
   border: 5px solid red;
   position: relative;
-  left: 100px;
+  left: 90px;
   width: 300px;
   height: 300px;
-  top: -1930px;
+  top: -1960px;
   display: flex;
   justify-content: center;
   background: rgba(10, 59, 43, 0.39);
@@ -597,6 +597,49 @@ body {
   z-index: 1;
 }
 .KJ a:hover {
+  color: black;
+  opacity: 0.5;
+}
+.KJimg {
+  height: 430px;
+  width: 490px;
+  position: relative;
+  left: 15px;
+  top: -30px;
+}
+.KJimg:hover {
+  opacity: 0.5;
+}
+
+.Sova {
+  border: 5px solid red;
+  position: relative;
+  left: 420px;
+  width: 300px;
+  height: 300px;
+  top: -3775px;
+  display: flex;
+  justify-content: center;
+  background: rgba(10, 187, 231, 0.384);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Sova a {
+  color: var(--main-color);
+  text-decoration: none;
+  position: relative;
+  top: 260px;
+  left: 130px;
+  font-weight: var(--main-weight);
+  height: 40px;
+  font-size: 30px;
+  font-family: var(--main-font);
+  z-index: 1;
+}
+.Sova a:hover {
   color: black;
   opacity: 0.5;
 }
