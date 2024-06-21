@@ -251,8 +251,8 @@ img {
   position: relative;
   top: var(--main-top);
   width: 180px;
-  left: 1830px;
-  background: rgba(184, 86, 21, 0.932);
+  left: 1960px;
+  background: rgba(189, 86, 18, 0.801);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -264,8 +264,8 @@ img {
   position: relative;
   top: var(--main-top);
   width: 180px;
-  left: 1870px;
-  background: rgba(8, 86, 131, 0.863);
+  left: 1990px;
+  background: rgba(29, 19, 168, 0.774);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -275,10 +275,10 @@ img {
 }
 .Icon2 {
   position: relative;
-  top: var(--main-top);
+  top: -100px;
   width: 180px;
-  left: 1910px;
-  background: rgba(209, 155, 5, 0.829);
+  left: 1590px;
+  background: rgba(17, 199, 23, 0.808);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -288,10 +288,10 @@ img {
 }
 .Icon3 {
   position: relative;
-  top: -110px;
+  top: -100px;
   width: 180px;
-  left: 1273px;
-  background: rgba(197, 132, 10, 0.801);
+  left: 1620px;
+  background: rgba(40, 39, 63, 0.74);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -299,31 +299,17 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: transform 0.5s;
 }
-.Icon5 {
+.Icon4 {
   position: relative;
-  top: -110px;
+  top: -1950px;
+  left: -700px;
   width: 180px;
-  left: 1320px;
-  background: rgba(9, 38, 202, 0.788);
+  background: rgba(207, 105, 9, 0.801);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  transition: transform 0.5s;
-}
-.Icon6 {
-  position: relative;
-  top: -110px;
-  width: 180px;
-  left: 1360px;
-  background: rgba(89, 64, 177, 0.808);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  transition: transform 0.5s;
 }
 .Icon:hover {
   transform: scale(1.5);
@@ -341,16 +327,6 @@ img {
   background: rgb(88, 51, 51);
 }
 .Icon3:hover {
-  transform: scale(1.5);
-  z-index: 1;
-  background: rgb(88, 51, 51);
-}
-.Icon5:hover {
-  transform: scale(1.5);
-  z-index: 3;
-  background: rgb(88, 51, 51);
-}
-.Icon6:hover {
   transform: scale(1.5);
   z-index: 1;
   background: rgb(88, 51, 51);
