@@ -11,8 +11,8 @@ body {
   border: 5px solid red;
   position: relative;
   left: 100px;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   top: 50px;
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@ body {
   opacity: 0.5;
 }
 .Harborimg {
-  height: 445px;
+  height: 400px;
   width: 490px;
   position: relative;
   left: -40px;
@@ -52,9 +52,9 @@ body {
 .Brim {
   border: 5px solid red;
   position: relative;
-  left: 430px;
-  width: 300px;
-  height: 300px;
+  left: 400px;
+  width: 200px;
+  height: 200px;
   top: -251px;
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@ body {
   opacity: 0.5;
 }
 .Brimimg {
-  height: 430px;
+  height: 400px;
   width: 450px;
   position: relative;
   left: -20px;

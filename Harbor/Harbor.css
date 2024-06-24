@@ -1,9 +1,5 @@
 body {
-  background: radial-gradient(
-    circle,
-    rgb(20, 78, 112) 31%,
-    rgba(228, 224, 221, 1) 44%
-  );
+  background: radial-gradient(circle, #264e41 31%, #2e5c81 44%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

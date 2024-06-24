@@ -2,7 +2,7 @@ body {
   background: radial-gradient(
     circle,
     rgba(197, 180, 29, 0.979) 31%,
-    rgba(228, 224, 221, 1) 44%
+    rgb(194, 67, 17) 44%
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -132,7 +132,7 @@ body {
   width: 600px;
   position: relative;
   left: 300px;
-  color: rgb(27, 6, 6);
+  color: rgb(238, 230, 230);
   font-weight: bold;
 }
 .icon1 {
