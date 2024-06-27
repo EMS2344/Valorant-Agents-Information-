@@ -11,6 +11,4 @@ Here are some pages of what it looks like:
 
 ![Screenshot 2024-06-26 232243](https://github.com/EMS2344/Valorant-Agents-Information-/assets/98353030/459dda3f-9912-4138-ba33-02fcf5b83ac3)
 ![Screenshot 2024-06-26 232308](https://github.com/EMS2344/Valorant-Agents-Information-/assets/98353030/9298d9c1-01a0-4543-a1f4-40ffff3c29f9)
-![Screenshot 2024-06-26 232335](https://github.com/EMS2344/Valorant-Agents-Information-/assets/98353030/f8134d05-d64d-4c18-955a-1f5d9aa05251)
-![Screenshot 2024-06-26 232740](https://github.com/EMS2344/Valorant-Agents-Information-/assets/98353030/01ac09c6-fc60-46d6-bb9c-baee7e085289)
-![Screenshot 2024-06-26 232802](https://github.com/EMS2344/Valorant-Agents-Information-/assets/98353030/f5533aa5-c463-4f6f-bc5e-5c9e86ba3c2a)
+
