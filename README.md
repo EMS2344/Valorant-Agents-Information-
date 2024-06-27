@@ -1,4 +1,4 @@
-Valorant Agents Information Repository
+<h1>Valorant Agents Information Repository</h1>
 Welcome to the Valorant Agents Information Repository! This project aims to provide detailed information on every agent in the popular tactical shooter game, Valorant, developed by Riot Games. Whether you're a new player looking to understand each agent's abilities or a veteran seeking in-depth details, this repository has you covered.
 
 Table of Contents
