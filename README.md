@@ -6,7 +6,6 @@ Duelists: Agents who specialize in attacking and fragging.
 Initiators: Agents who excel at breaking through defenses and starting engagements.
 Sentinels: Agents focused on defensive play and protecting allies.
 Controllers: Agents who manipulate the battlefield with their abilities.
-Agent Details
 Each agent has a dedicated markdown file containing detailed information about their abilities, and lore. The agents are grouped based on their roles.
 Here are some pages of what it looks like:
 
