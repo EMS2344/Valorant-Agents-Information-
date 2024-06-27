@@ -12,8 +12,7 @@ Here are some pages of what it looks like:
 ![image](https://github.com/EMS2344/New/assets/98353030/b9013803-547c-4f97-b20a-d99f9580f2ec)
 ![image](https://github.com/EMS2344/New/assets/98353030/33123dec-6b31-4009-b4f5-e08782aec39f)
 ![image](https://github.com/EMS2344/New/assets/98353030/6761b59c-8e84-473d-9cab-400d60b9caca)
-![image](https://github.com/EMS2344/Valorant-Agents-Information-/assets/98353030/7c840c79-5808-443c-8e62-9224aef9d7ac)
-![image](https://github.com/EMS2344/Valorant-Agents-Information-/assets/98353030/1747f5e0-545b-4a6e-80a4-7af62b7a24f4)
+
 
 
 
