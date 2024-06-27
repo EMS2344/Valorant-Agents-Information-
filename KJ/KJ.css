@@ -2,7 +2,7 @@ body {
   background: radial-gradient(
     circle,
     rgba(168, 128, 15, 0.979) 31%,
-    rgba(228, 224, 221, 1) 44%
+    rgb(116, 41, 126) 44%
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -116,7 +116,7 @@ body {
 }
 
 .Abi {
-  color: rgb(27, 20, 20);
+  color: rgb(250, 245, 245);
   font-family: "Fugaz One", sans-serif;
   position: relative;
   font-size: 40px;
@@ -132,7 +132,7 @@ body {
   width: 600px;
   position: relative;
   left: 300px;
-  color: rgb(27, 6, 6);
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 .icon1 {
@@ -344,7 +344,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .controller {
-  color: rgb(27, 20, 20);
+  color: rgb(253, 253, 253);
   font-family: "Fugaz One", sans-serif;
   position: relative;
   font-size: 40px;
@@ -353,4 +353,21 @@ img {
   left: 1950px;
   width: 400px;
   text-align: center;
+}
+.Footer {
+  background-color: black;
+  width: 2582px;
+  height: 70px;
+  top: 1209px;
+  left: -10px;
+  position: fixed;
+}
+.Footer a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 1240px;
+  top: 15px;
+  font-family: "Exo 2", sans-serif;
 }

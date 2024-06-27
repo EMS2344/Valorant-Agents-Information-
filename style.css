@@ -1,10 +1,10 @@
 body {
-  background-color: rgba(248, 246, 252, 0.514);
+  background-color: rgba(139, 122, 125, 0.562);
   position: fixed;
 }
 :root {
   --main-font: "Fugaz One", sans-serif;
-  --main-color: rgb(2, 0, 0);
+  --main-color: rgb(71, 23, 23);
   --main-weight: bold;
 }
 .Harbor {
@@ -52,10 +52,10 @@ body {
 .Brim {
   border: 5px solid red;
   position: relative;
-  left: 400px;
+  left: 370px;
   width: 200px;
   height: 200px;
-  top: -251px;
+  top: -150px;
   display: flex;
   justify-content: center;
   background: rgba(160, 111, 5, 0.541);
@@ -70,7 +70,6 @@ body {
   text-decoration: none;
   position: relative;
   font-weight: var(--main-weight);
-
   top: 260px;
   left: 130px;
   height: 40px;
@@ -95,10 +94,10 @@ body {
 .Viper {
   border: 5px solid red;
   position: relative;
-  left: 760px;
-  width: 300px;
-  height: 300px;
-  top: -552px;
+  left: 690px;
+  width: 200px;
+  height: 200px;
+  top: -352px;
   display: flex;
   justify-content: center;
   background: rgba(12, 196, 21, 0.288);
@@ -138,10 +137,10 @@ body {
 .Omen {
   border: 5px solid red;
   position: relative;
-  left: 1100px;
-  width: 300px;
-  height: 300px;
-  top: -855px;
+  left: 1000px;
+  width: 200px;
+  height: 200px;
+  top: -555px;
   display: flex;
   justify-content: center;
   background: rgba(13, 38, 148, 0.24);
@@ -189,10 +188,10 @@ body {
 .Astra {
   border: 5px solid red;
   position: relative;
-  left: 1440px;
-  width: 300px;
-  height: 300px;
-  top: -1157px;
+  left: 1330px;
+  width: 200px;
+  height: 200px;
+  top: -757px;
   display: flex;
   justify-content: center;
   background: rgba(83, 8, 65, 0.281);
@@ -232,10 +231,10 @@ body {
 .Phoenix {
   border: 5px solid red;
   position: relative;
-  left: 1780px;
-  width: 300px;
-  height: 300px;
-  top: -1460px;
+  left: 1640px;
+  width: 200px;
+  height: 200px;
+  top: -960px;
   display: flex;
   justify-content: center;
   background: rgba(211, 105, 5, 0.384);
@@ -275,10 +274,10 @@ body {
 .Jett {
   border: 5px solid red;
   position: relative;
-  left: 2120px;
-  width: 300px;
-  height: 300px;
-  top: -1761px;
+  left: 1979px;
+  width: 200px;
+  height: 200px;
+  top: -1161px;
   display: flex;
   justify-content: center;
   background: rgba(11, 169, 180, 0.342);
@@ -318,10 +317,10 @@ body {
 .Neon {
   border: 5px solid red;
   position: relative;
-  left: 1100px;
-  width: 300px;
-  height: 300px;
-  top: -1660px;
+  left: 2270px;
+  width: 200px;
+  height: 200px;
+  top: -1360px;
   display: flex;
   justify-content: center;
   background: rgba(231, 190, 10, 0.527);
@@ -362,9 +361,9 @@ body {
   border: 5px solid red;
   position: relative;
   left: 90px;
-  width: 300px;
-  height: 300px;
-  top: -1960px;
+  width: 200px;
+  height: 200px;
+  top: -1160px;
   display: flex;
   justify-content: center;
   background: rgba(10, 59, 43, 0.39);
@@ -403,10 +402,10 @@ body {
 .Reyna {
   border: 5px solid red;
   position: relative;
-  left: 760px;
-  width: 300px;
-  height: 300px;
-  top: -2267px;
+  left: 700px;
+  width: 200px;
+  height: 200px;
+  top: -1350px;
   display: flex;
   justify-content: center;
   background: rgba(137, 13, 168, 0.233);
@@ -445,10 +444,10 @@ body {
 .Yoru {
   border: 5px solid red;
   position: relative;
-  left: 1440px;
-  width: 300px;
-  height: 300px;
-  top: -2569px;
+  left: 1340px;
+  width: 200px;
+  height: 200px;
+  top: -1539px;
   display: flex;
   justify-content: center;
   background: rgba(21, 18, 173, 0.253);
@@ -487,10 +486,10 @@ body {
 .Iso {
   border: 5px solid red;
   position: relative;
-  left: 2120px;
-  width: 300px;
-  height: 300px;
-  top: -2875px;
+  left: 2010px;
+  width: 200px;
+  height: 200px;
+  top: -1735px;
   display: flex;
   justify-content: center;
   background: rgba(100, 10, 184, 0.185);
@@ -529,10 +528,10 @@ body {
 .Sage {
   border: 5px solid red;
   position: relative;
-  left: 2120px;
-  width: 300px;
-  height: 300px;
-  top: -2770px;
+  left: 1700px;
+  width: 200px;
+  height: 200px;
+  top: -1940px;
   display: flex;
   justify-content: center;
   background: rgba(15, 141, 199, 0.26);
@@ -571,10 +570,10 @@ body {
 .KJ {
   border: 5px solid red;
   position: relative;
-  left: 1780px;
-  width: 300px;
-  height: 300px;
-  top: -3475px;
+  left: 1050px;
+  width: 200px;
+  height: 200px;
+  top: -2145px;
   display: flex;
   justify-content: center;
   background: rgba(243, 247, 5, 0.384);
@@ -614,10 +613,10 @@ body {
 .Sova {
   border: 5px solid red;
   position: relative;
-  left: 420px;
-  width: 300px;
-  height: 300px;
-  top: -3775px;
+  left: 390px;
+  width: 200px;
+  height: 200px;
+  top: -2355px;
   display: flex;
   justify-content: center;
   background: rgba(10, 187, 231, 0.384);
@@ -656,10 +655,10 @@ body {
 .Cypher {
   border: 5px solid red;
   position: relative;
-  left: 420px;
-  width: 300px;
-  height: 300px;
-  top: -3665px;
+  left: 2280px;
+  width: 200px;
+  height: 200px;
+  top: -2535px;
   display: flex;
   justify-content: center;
   background: rgba(10, 187, 231, 0.384);
@@ -698,10 +697,10 @@ body {
 .Chamber {
   border: 5px solid red;
   position: relative;
-  left: 760px;
-  width: 300px;
-  height: 300px;
-  top: -3967px;
+  left: 80px;
+  width: 200px;
+  height: 200px;
+  top: -2367px;
   display: flex;
   justify-content: center;
   background: rgba(10, 187, 231, 0.384);
@@ -740,13 +739,13 @@ body {
 .Deadlock {
   border: 5px solid red;
   position: relative;
-  left: 1097px;
-  width: 300px;
-  height: 300px;
-  top: -4267px;
+  left: 2290px;
+  width: 200px;
+  height: 200px;
+  top: -2540px;
   display: flex;
   justify-content: center;
-  background: rgba(10, 187, 231, 0.384);
+  background: rgba(73, 146, 31, 0.384);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -778,4 +777,28 @@ body {
 }
 .KJimg:hover {
   opacity: 0.5;
+}
+.Footer {
+  background-color: black;
+  width: 2582px;
+  height: 70px;
+  top: 1209px;
+  left: -10px;
+  position: fixed;
+}
+.Footer a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 1240px;
+  top: 15px;
+  font-family: "Exo 2", sans-serif;
+}
+.logo {
+  font-size: 300px;
+  position: relative;
+  top: -2990px;
+  left: 700px;
+  color: black;
 }

@@ -394,3 +394,20 @@ body {
 .Viperimg:hover {
   opacity: 0.5;
 }
+.Footer {
+  background-color: black;
+  width: 2582px;
+  height: 70px;
+  top: 1209px;
+  left: -10px;
+  position: fixed;
+}
+.Footer a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 1240px;
+  top: 15px;
+  font-family: "Exo 2", sans-serif;
+}

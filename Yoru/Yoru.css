@@ -2,7 +2,7 @@ body {
   background: radial-gradient(
     circle,
     rgba(31, 32, 128, 0.979) 31%,
-    rgba(228, 224, 221, 1) 44%
+    rgb(121, 127, 167) 44%
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -377,4 +377,21 @@ img {
   left: 1950px;
   width: 400px;
   text-align: center;
+}
+.Footer {
+  background-color: black;
+  width: 2582px;
+  height: 70px;
+  top: 1209px;
+  left: -10px;
+  position: fixed;
+}
+.Footer a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 1240px;
+  top: 15px;
+  font-family: "Exo 2", sans-serif;
 }
