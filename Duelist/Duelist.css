@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(249, 250, 255);
+  background-color: rgb(255, 255, 255);
   position: fixed;
 }
 :root {
   --main-font: "Exo 2", sans-serif;
-  --main-color: rgb(0, 0, 0);
+  --main-color: rgb(255, 252, 252);
   --main-weight: none;
 }
 .topnav {
@@ -315,7 +315,7 @@ body {
   left: 790px;
   width: 400px;
   height: 400px;
-  top: -1300px;
+  top: -1340px;
   display: flex;
   justify-content: center;
   background: rgba(43, 3, 51, 0.2);
@@ -358,7 +358,7 @@ body {
   left: 1390px;
   width: 400px;
   height: 400px;
-  top: -1705px;
+  top: -1740px;
   display: flex;
   justify-content: center;
   background: rgba(43, 3, 51, 0.2);
